@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
-        id="just-more-innovation-test" version="0.0.1">
+        id="just-more-innovation-test" version="0.0.2">
     <name>Test</name>
     <description>Cordova Test Plugin</description>
     <license>Apache 2.0</license>
@@ -15,6 +15,6 @@
             </feature>
         </config-file>
 
-        <source-file src="src/android/Test.java" target-dir="src/com,justmoreinnovation,test" />
+        <source-file src="src/android/Test.java" target-dir="src/com/justmoreinnovation/test" />
     </platform>
 </plugin>
